@@ -5,6 +5,7 @@ import React, { Component } from 'react';
 class DemoComponent extends Component {
   render() {
     return (
+<<<<<<< HEAD
         <div class="panel-group" id="accordion">
            <div class="panel panel-default">
              <div class="panel-heading">
@@ -14,6 +15,19 @@ class DemoComponent extends Component {
               </div>
               <div id="collapse1" class="panel-collapse collapse in">
                 <div class="panel-body"> {this.props.phone}</div>
+=======
+        <div className="panel-group" id="accordion">
+           <div className="panel panel-default">
+             <div className="panel-heading">
+                <h4 className="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href={this.props.value1}> {this.props.value}</a>
+                </h4>
+              </div>
+              <img src={this.props.imageSrc} alt="boohoo"/>
+
+              <div id={this.props.value1} className="panel-collapse collapse in">
+                <div className="panel-body"> {this.props.phone}</div>
+>>>>>>> 1d62745d31f03995c45b4c4ab8cb84f7d555dfdb
                 </div>
               </div>
              </div>
