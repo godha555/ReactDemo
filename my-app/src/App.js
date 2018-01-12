@@ -16,11 +16,11 @@ class App extends Component {
         <p className="App-intro">
           Contacts
         </p>
-        <div class="container">
-          <div class="contact">
-          <DemoComponent value="John" phone="+1 343565123" value1="c1"></DemoComponent>
-          <DemoComponent value="Paul" phone="+1 456566243" value1="c2"></DemoComponent>
-          <DemoComponent value="Joe" phone="+1 5656546523" value1="c3"></DemoComponent>
+        <div className="container">
+          <div className="contact">
+          <DemoComponent imageSrc="/image/IMG_0479.JPG" value="John" phone="+1 343565123" value1="c1"></DemoComponent>
+          <DemoComponent imageSrc="/image/IMG_0479.JPG" value="Paul" phone="+1 456566243" value1="c2"></DemoComponent>
+          <DemoComponent imageSrc="/image/IMG_0479.JPG" value="Joe" phone="+1 5656546523" value1="c3"></DemoComponent>
           </div>
         </div>
       </div>
