@@ -20,9 +20,13 @@ class IncDec extends Component {
     render() {
       return (
           <div>
-              <button onClick={this.increment}>+1 {this.props.incrementName}</button>
+              <button type="button" class="btn btn-default btn-sm" onClick={this.increment}>
+          <span class="glyphicon glyphicon-thumbs-up"></span>
+               {this.props.incrementName}</button> 
               <b> {this.state.myCounter}</b>
-              <button onClick={this.decrement}>-1 {this.props.decrementName}</button>
+              <button type="button" class="btn btn-default btn-sm" onClick={this.decrement}>
+          <span class="glyphicon glyphicon-thumbs-down"></span>
+              {this.props.decrementName}</button> 
               </div>
         
       );

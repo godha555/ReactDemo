@@ -44,9 +44,9 @@ class App extends Component {
           
           </header>
 
-          <IncDec incrementName="Increment" decrementName="Decrement" myFunction={this.myFunction} />
-          <IncDec incrementName="Increment" decrementName="Decrement" myFunction={this.myFunction} />
-          <IncDec incrementName="Increment" decrementName="Decrement" myFunction={this.myFunction} />
+          <IncDec incrementName="Like" decrementName="Dislike" myFunction={this.myFunction} />
+          <IncDec incrementName="Like" decrementName="Dislike" myFunction={this.myFunction} />
+          <IncDec incrementName="Like" decrementName="Dislike" myFunction={this.myFunction} />
       </div>
     );
   }
